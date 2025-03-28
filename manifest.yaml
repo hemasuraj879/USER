@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: user
-        imge:
+        imge: 296062550816.dkr.ecr.us-east-1.amazonaws.com/suraj/dev/user:1.0
         imagePullPolicy: Always
         envFrom:
         - configMapRef:
