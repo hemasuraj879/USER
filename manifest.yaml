@@ -13,7 +13,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      proejct: suraj
+      project: suraj
       env: dev
       component: db
 
